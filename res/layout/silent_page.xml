@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="320dip"
+  android:layout_height="480dip"
+   android:background="@drawable/wall"
+  >
+    <TextView android:textSize="20dip"  android:textColor="#D59F00" android:text="Silence Starts at," android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_x="25dip" android:layout_y="25dip"></TextView>
+    <TextView android:textSize="20dip"  android:textColor="#D59F00" android:text="Silence Ends at," android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_x="24dip" android:layout_y="130dip"></TextView>
+    <Button android:background="@drawable/grad" android:text="Set Start time" android:id="@+id/button1" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="94dip" android:layout_y="60dip"></Button>
+    <Button android:background="@drawable/grad" android:text="Set End Time" android:id="@+id/button2" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="96dip" android:layout_y="180dip"></Button>
+      <CheckBox android:textColor="#ffffff" android:textSize="20dip" android:layout_x="20dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBox1" android:text="One time rule" android:layout_y="225dip"></CheckBox>
+       <Button android:id="@+id/button3" android:background="@drawable/grad" android:text="Save" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="20dip" android:layout_y="324dip"></Button>
+    <Button android:id="@+id/button4" android:background="@drawable/grad" android:text="Delete" android:layout_width="125dip" android:layout_height="wrap_content" android:layout_x="172dip" android:layout_y="324dip"></Button>
+</AbsoluteLayout>

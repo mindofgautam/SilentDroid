@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+android:layout_width="320dip"
+  android:layout_height="480dip"
+  android:background="@drawable/wall"
+  >
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="0dip" android:layout_y="100dip">
+        <ListView android:id="@+id/listView1" android:layout_height="wrap_content" android:layout_width="fill_parent"></ListView>
+    </LinearLayout>
+    <Button android:background="@drawable/grad" android:id="@+id/button1" android:layout_width="125dip" android:text="Create Profile.." android:layout_height="wrap_content" android:layout_x="89dip" android:layout_y="6dip" android:freezesText="true"></Button>
+    <TextView android:textSize="20dip"  android:textColor="#110F00" android:text="Existing Rules," android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_x="18dip" android:layout_y="60dip"></TextView>
+   </AbsoluteLayout>
