@@ -10,7 +10,6 @@ public class BootReceiver extends BroadcastReceiver
 	{         
 	Intent serviceIntent = new Intent(context, sil_service.class);  
 	context.startService(serviceIntent);
-	//startService(new Intent(this, sil_service.class));
-	//context.startService(serviceIntent);  
+	
 	}
 } 
